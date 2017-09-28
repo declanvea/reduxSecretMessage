@@ -23,7 +23,7 @@ export default class Register extends React.Component {
               <Label for="exampleText">Text Area</Label>
               <Input type="textarea" name="text" id="exampleText" />
             </FormGroup>
-            <Button>Submit</Button>
+            <Button color="primary">Submit</Button>
           </Form>
       </div>
     );

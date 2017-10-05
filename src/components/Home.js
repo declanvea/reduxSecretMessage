@@ -13,7 +13,7 @@ export default class Home extends React.Component {
              <hr className="my-2" />
              <p></p>
              <p className="lead">
-              <NavLink to="/register"><Button color="danger">Register</Button></NavLink>
+              <NavLink style={{margin:'15px'}} to="/register"><Button color="danger">Register</Button></NavLink>
               <NavLink to="/login"><Button color="primary">Login</Button></NavLink>
              </p>
            </Jumbotron>
